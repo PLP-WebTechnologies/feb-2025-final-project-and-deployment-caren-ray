@@ -1,0 +1,80 @@
+/* css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  header {
+    background: #1e90ff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .hero {
+    text-align: center;
+    padding: 2em;
+  }
+  img#slider {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 1em;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 1em;
+  }
+  input, textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 0.7em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0d6efd;
+  }
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+    img#slider {
+      width: 100%;
+    }
+  }
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
